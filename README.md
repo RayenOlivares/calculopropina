@@ -1,5 +1,6 @@
 # calculopropina
 Codigo que calcularia la propina de un servicio segun su calidad
+
 function calcularPropina() {
     var nota = +prompt("Por favor, ingresa la nota del mesero (del 0 al 7):");
 
