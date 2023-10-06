@@ -1,10 +1,10 @@
 # calculopropina
+
 Codigo que calcularia la propina de un servicio segun su calidad
 
 function calcularPropina() {
     var nota = +prompt("Por favor, ingresa la nota del mesero (del 0 al 7):");
-
-    if (nota === 0) {
+        if (nota === 0) {
         var reclamo = prompt("Por favor, comparte tu experiencia:");
         console.log("Gracias por tu feedback: " + reclamo);
     } else {
@@ -17,5 +17,4 @@ function calcularPropina() {
         console.log(`La propina a dejar es de ${montoPropina.toFixed(2)} pesos.`);
     }
 }
-
 calcularPropina();
