@@ -11,7 +11,7 @@ function calcularPropina() {
         var propinas = [0, 5, 5, 5, 10, 10, 10, 15];
         var propina = propinas[nota];
         
-        var total = +prompt("Ingresa el total de la cuenta:");
+        var total = +prompt("Por favor, Ingresa el total de la cuenta:");
         var montoPropina = (total * propina) / 100;
 
         console.log(`La propina a dejar es de ${montoPropina.toFixed(2)} pesos.`);
